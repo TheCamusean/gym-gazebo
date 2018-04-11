@@ -1,0 +1,5 @@
+gym_gazebo_boilerplate.egg-info/PKG-INFO
+gym_gazebo_boilerplate.egg-info/SOURCES.txt
+gym_gazebo_boilerplate.egg-info/dependency_links.txt
+gym_gazebo_boilerplate.egg-info/requires.txt
+gym_gazebo_boilerplate.egg-info/top_level.txt

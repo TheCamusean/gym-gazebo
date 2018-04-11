@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import gym
-import gym_gazebo
+import gym_gazebo_boilerplate
 import time
 import numpy
 import random
