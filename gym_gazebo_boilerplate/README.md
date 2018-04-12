@@ -2,6 +2,12 @@
 
 This boilerplate has been designed with the idea of making easier the development of new gym enviroments without deep knowledge of python and particularlly applicable in Gazebo.
 
+## Dependencies
+
+This package will run the youbot robot, you can find it here:
+
+* [Youbot](https://github.com/TheCamusean/youbot_robot)
+
 ## Steps
 
 The following ionstructions are the modifications that you should do in gym_gazebo_boilerplate in order to make it work in your own enviroment:
