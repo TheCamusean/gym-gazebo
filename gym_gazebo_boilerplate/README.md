@@ -16,15 +16,13 @@ The following ionstructions are the modifications that you should do in gym_gaze
 sudo pip install -e .
 ```
 
-4. In gym_gazebo_boilerplate/gym_gazebo_boilerplate/envs/box/gazebo_box.py is defined
+4. In gym_gazebo_boilerplate/gym_gazebo_boilerplate/envs/box/gazebo_box.py is defined the main gym functions for your particular enviroment. Here you should define step() , reset() ...
 
-### Prerequisites
+5. In gym_gazebo_boilerplate/gym_gazebo_boilerplate/envs/box/__init__.py , import your new class
 
-What things you need to install the software and how to install them
+6. In order to make gym recognize your enviroment you have to register the new class as an enviroment. do that in gym_gazebo_boilerplate/gym_gazebo_boilerplate/__init__.py
 
-```
-Give examples
-```
+7. Once you want to use your enviroment, in gym_gazebo_boilerplate/examples/box/box_gym.py, you should import your new package, installed with the name set in step 2.
 
 
 
